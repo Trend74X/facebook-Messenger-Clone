@@ -1,16 +1,12 @@
-# messenger
+This is my first github repo created for public. 
+Its not fully completed yet but I will complete the codes soon. 
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+As for the details <br>
+  Flutter => "2.2.2" <br>
+  sdk => ">=2.12.0 <3.0.0"
+ 
+Dependencies used
+  cupertino_icons: ^1.0.2 <br>
+  get: ^4.1.4 <br>
+  image_picker: ^0.8.1+1 <br>
+  sticky_headers: ^0.2.0 <br>
