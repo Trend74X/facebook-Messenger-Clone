@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:messenger/src/views/ChatRoom.dart';
 import 'package:messenger/src/views/NewMessage.dart';
 import 'package:messenger/src/views/ProfilePage.dart';
 import 'package:messenger/src/views/SearchPage.dart';
@@ -23,14 +24,14 @@ class _HomePageState extends State<HomePage> {
           color: Colors.black87,
           child: Padding(
             padding: const EdgeInsets.all(15.0),
-            child: topContainer(),
+            child: homepagelayout(),
           ),
         ),
       ),
     );
   }
 
-  topContainer(){
+  homepagelayout(){
     return StickyHeader(
       header: Container(
         color: Colors.black87,
@@ -235,6 +236,7 @@ class _HomePageState extends State<HomePage> {
           title: Text('Mr Red', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
           subtitle: Text('Hello', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
           trailing: Icon(Icons.notifications_off, color: Colors.white24, size: 15.0),
+          onTap: () => Get.to(() => ChatRoom()),
         ),
         ListTile(
           leading: CircleAvatar(
